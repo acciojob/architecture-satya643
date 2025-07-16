@@ -1,16 +1,132 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="UTF-8">
+  <title>Architecture Floor Plans</title>
+  <style>
+    body {
+      background-color: #cfd6cd;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
 
+    .container {
+      width: 900px;
+      margin: auto;
+      background-color: #e8ebe7;
+      padding: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .banner img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    td {
+      vertical-align: top;
+      padding: 10px;
+      border: 1px solid #999;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .objective-title {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .side-image {
+      width: 100%;
+      height: auto;
+    }
+
+    .description {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .highlight {
+      font-weight: bold;
+    }
+
+    .learn-more {
+      color: blue;
+      font-size: 13px;
+      display: inline-block;
+      margin-top: 5px;
+    }
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <div class="container">
+    <div class="banner">
+      <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914" alt="Architecture Banner">
+    </div>
+
+    <table>
+      <tr>
+        <td width="200">
+          <img class="side-image" src="https://images.unsplash.com/photo-1581091215367-7c54f0c47339" alt="Left Image 1">
+        </td>
+        <td class="text-center" width="500">
+          <p>
+            Unit #5 - Floor Plans<br>
+            A. Kitchen<br>
+            B. Bathroom<br>
+            C. Using "Slabs"<br>
+            D. Georgian Home<br>
+            E. Sketching Assignment #5
+          </p>
+        </td>
+        <td width="200">
+          <img class="side-image" src="https://images.unsplash.com/photo-1581092334700-9061f9b70b9f" alt="Right Image 1">
+        </td>
+      </tr>
+
+      <tr>
+        <td width="200">
+          <img class="side-image" src="https://images.unsplash.com/photo-1581092334700-9061f9b70b9f" alt="Left Image 2">
+          <div class="description">
+            <span class="highlight">HousePlans.com</span><br>
+            The largest source for quality affordable ready-made house plans. A great place to surf for space planning ideas.
+            <div class="learn-more">learn more</div>
+          </div>
+        </td>
+        <td width="500">
+          <div class="objective-title">Objective</div>
+          <div class="description">
+            Discuss factors that are important in the design of bedrooms. Plan the size and location of closets for a typical residence. Plan a furniture arrangement for a room. Implement important design considerations for bathrooms. Plan a bathroom that follows solid design principles. Plan the service area of a home by applying good design principles.<br><br>
+            Design a functional kitchen to meet a family’s needs. Select kitchen appliances that are appropriate for a design. Plan an efficient clothes care center. Describe appropriate dimensions for garage space. Identify the rooms and areas that comprise the living area. Apply design principles to planning a living room. Integrate the furniture in a living room plan. Analyze a dining room using good design principles. Design a functional entry and foyer.
+          </div>
+        </td>
+        <td width="200">
+          <img class="side-image" src="https://images.unsplash.com/photo-1581092334700-9061f9b70b9f" alt="Right Image 2">
+          <div class="description">
+            <span class="highlight">Green Floor</span><br>
+            FreeGreen.com offers both sponsored and non-sponsored floor plans. Their goal is to provide consumers with free solutions to their green architectural needs.
+            <div class="learn-more">learn more</div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
 
 </body>
-
 </html>
